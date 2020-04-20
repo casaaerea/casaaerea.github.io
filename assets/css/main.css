@@ -3911,7 +3911,7 @@ input, select, textarea {
 	text-decoration: solid;
 	text-transform: uppercase;
 	text-align: right;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 #home p {
@@ -3924,7 +3924,7 @@ input, select, textarea {
 	text-transform: uppercase;
 	text-align: left;
 	font-weight: 1300;
-	font-size: 2em;
+	font-size: 1.8em;
 }
 
 #quienes_somos p {
@@ -3958,7 +3958,7 @@ input, select, textarea {
 	text-transform: uppercase;
 	text-align: right;
 	font-weight: 1300;
-	font-size: 2em;
+	font-size: 1.8em;
 	margin: 0;
 }
 
