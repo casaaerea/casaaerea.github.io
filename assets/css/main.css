@@ -4202,7 +4202,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #como-comprar > div {
-	display: grid;
+	display: flex;
 	justify-content: center;
 	margin: 3em 0.3em 1em;
 }
@@ -4212,11 +4212,11 @@ body.is-preload #sidebar nav ul li {
 	align-items: center;
 	justify-content: center;
 	background-color: #dee6de;
-	margin: 1.5em 2em;
+	margin: 1.5em 1em;
 	padding: 0.5em;
 	border-radius: 20px;
-	box-shadow: 0 0 0 10px #5d6774,
-				0 0 0 12px #dee6de;
+	box-shadow: 0 0 0 3px #5d6774,
+				0 0 0 5px #dee6de;
 	justify-content: center;
 	
 }
