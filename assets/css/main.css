@@ -4317,11 +4317,25 @@ CONTACTO*/
 
 }
 
+@media screen and (min-width: 820px) {
+	#contact-icons div {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 755px) and (max-width: 820px) {
+	#contact-icons div {
+		width: 80%;
+	}
+}
+
 @media screen and (max-width: 755px) {
 	#contact-icons p{
 		font-size: 0.8em;
+		width: 100%;
 	}
 }
+
 
 /* **************************
 FOOTER */
