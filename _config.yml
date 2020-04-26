@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "wwww.casaaerea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 phone: (+57) 320 268 1435
+tel: (031) 8637517
 country: Colombia
 location: Chía - Cundinamarca
 direction: Calle 9A N° 14F - 28 

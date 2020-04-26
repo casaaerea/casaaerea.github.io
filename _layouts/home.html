@@ -84,7 +84,7 @@ layout: default
                 proveedores</p>
         </div>
         <div>
-            <img src="/assets/css/images/icono de recibido .png" alt="cuarto, recibimos y rebisamos tu compra">
+            <img src="/assets/css/images/icono de recibido.png" alt="cuarto, recibimos y rebisamos tu compra">
             <h3>4. Recepción y revisión</h3>
             <p>Realizamos un exhaustivo control de
                 calidad a nuestros productos también
@@ -92,14 +92,14 @@ layout: default
                 de acuerdo con la norma aeronáutica.</p>
         </div>
         <div>
-            <img src="/assets/css/images/iconoc de doumentacion.png" alt="quinto, comprobamos los documentos y componentes recibidos">
+            <img src="/assets/css/images/icono de doumentacion.png" alt="quinto, comprobamos los documentos y componentes recibidos">
             <h3>5. Control calidad</h3>
             <p>El recibo de nuestros productos esta
                 estipulado entre 5 a 15 días depen-
                 diendo de la disponibilidad.</p>
         </div>
         <div>
-            <img src="/assets/css/images/icono de logistica .png" alt="sexto, despachamos tu envio a donde lo necesites">
+            <img src="/assets/css/images/icono de logistica.png" alt="sexto, despachamos tu envio a donde lo necesites">
             <h3>6. Logística</h3>
             <p>La entrega de los productos está
                 estipulada en la orden de compra.</p>
@@ -109,12 +109,47 @@ layout: default
 
 <!--contacto-->
 <section id="contacto">
-    <div>
-        <div id="contac-head">
-            
+    <div id="contact-head">
+        <h2>Contacto</h2>            
+    </div>
+    <div id="contact-container"">
+        <div id="contact-icons">
+            <div>
+                <img src="/assets/css/images/icono celular.png" alt="Numero de celular">
+                <div class="contact-p">
+                    <p>{{ site.phone }}</p>
+                </div>
+            </div>
+            <div>
+                <img src="/assets/css/images/icono telefono.png" alt="Número de telefono">
+                <div class="contact-p">
+                    <p>{{ site.tel }}</p>
+                </div>
+            </div>
+            <div>
+                <img src="/assets/css/images/icono email.png" alt="Dirección de correo electrónico">
+                <div class="contact-p">
+                    <p>{{ site.email }}</p>
+                </div>
+            </div>
         </div>
-        <div id="contact-body">
-
-        </div>
+    </div>
+    <div id="contact-form">
+        <form id="formulario">
+            <div>
+                <div id="name-email">
+                    <input type="text" name="name" id="name" placeholder="Name" />
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div>
+                    <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+                </div>
+                <div id="boton">
+                    <ul class="actions">
+                        <li><input type="button" id="enviar" value="Enviar" /></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
     </div>
 </section>
