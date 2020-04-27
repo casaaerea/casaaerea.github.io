@@ -4088,6 +4088,7 @@ body.is-preload #sidebar nav ul li {
 	font-weight: 1300;
 	font-size: 1.8em;
 	margin: 0;
+	padding: 0 1em 2em;
 }
 
 #que_hacemos h3 {
@@ -4098,7 +4099,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #que_hacemos img {
-	max-width: 70%;
+	max-width: 30%;
 	max-height: 60%;
 }
 
@@ -4192,6 +4193,7 @@ body.is-preload #sidebar nav ul li {
 		padding-top: 1.25em;
 		justify-content: center;
 		align-items: center;
+		margin: 1em;
 	}
 	#electricos, #electronicos,
 	#herramientas, #drones {
@@ -4204,6 +4206,8 @@ body.is-preload #sidebar nav ul li {
 	#que_hacemos>div>div {
 		width: 90%;
 		justify-content: center;
+		padding: 0;
+		margin-top: 0;
 	}
 
 	#body-sec {
@@ -4220,6 +4224,8 @@ body.is-preload #sidebar nav ul li {
 	background-color: #5d6774;
 	padding: 1em;
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #como-comprar h2, h3 {
@@ -4228,30 +4234,40 @@ body.is-preload #sidebar nav ul li {
 
 #como-comprar h2 {
 	margin: 0.5em 0 0 1em;
-	position: absolute;
 	align-items: flex-end;
 }
 
 #como-comprar h3 {
+	font-size: 0.9em;
 	color: black;
 }
 
 #como-comprar p {
+	font-size: 0.7em;
 	margin: 0;
 	color:#5d6774;
 }
 
 #como-comprar img {
-	width: 80%;
+	width: 50%;
+}
+
+#comprar-head {
+	width: 100%;
 }
 
 #como-comprar > div {
-	display: flex;
-	justify-content: center;
-	margin: 3em 0.3em 1em;
+	width: 100%;
 }
 
-#como-comprar > div > div {
+.container-process {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.process {
+	width: 27%;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -4263,6 +4279,19 @@ body.is-preload #sidebar nav ul li {
 				0 0 0 5px #dee6de;
 	justify-content: center;
 	
+}
+
+@media  screen and (max-width: 560px) {
+	.container-process {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.process {
+		width: 80%;
+	}
 }
 
 /* ******************************* 
