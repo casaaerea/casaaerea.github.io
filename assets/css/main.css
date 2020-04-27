@@ -4088,7 +4088,7 @@ body.is-preload #sidebar nav ul li {
 	font-weight: 1300;
 	font-size: 1.8em;
 	margin: 0;
-	padding: 0 1em 2em;
+	padding: 0 1em 0.5em;
 }
 
 #que_hacemos h3 {
@@ -4099,13 +4099,23 @@ body.is-preload #sidebar nav ul li {
 }
 
 #que_hacemos img {
-	max-width: 30%;
-	max-height: 60%;
+	width: 50%;
+	padding-bottom: 1em;
 }
 
 #head-sec {
-	height: 20%;
+	display: flex;
+	flex-direction: row;
 }
+
+#head-sec div {
+	width: 50%;
+	min-height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 
 #body-sec {
 	height: 80%;
